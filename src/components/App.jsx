@@ -27,7 +27,7 @@ export default function App({ initialValue }) {
             case 'bad':
                 setBad(prev => prev + 1);
             default:
-                return;
+                console.log(option);
         }
 
     };
