@@ -26,8 +26,9 @@ export default function App({ initialValue }) {
                 break;
             case 'bad':
                 setBad(prev => prev + 1);
+                break;
             default:
-                console.log(option);
+                return;
         }
 
     };
