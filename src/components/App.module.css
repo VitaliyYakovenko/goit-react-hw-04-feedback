@@ -1,0 +1,8 @@
+.feedback {
+    border: 1px solid black;
+    width: 700px;
+    margin: 100px auto;
+    height: 400px;
+    font-size: 22;
+    color: #010101;
+}
